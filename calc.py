@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'calc.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(481, 325)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 481, 271))
+        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.textBrowser = QtWidgets.QTextBrowser(self.verticalLayoutWidget)
+        self.textBrowser.setObjectName("textBrowser")
+        self.verticalLayout.addWidget(self.textBrowser)
+        self.gridLayout = QtWidgets.QGridLayout()
+        self.gridLayout.setObjectName("gridLayout")
+        self.button7 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button7.setObjectName("button7")
+        self.gridLayout.addWidget(self.button7, 0, 1, 1, 1)
+        self.button0 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button0.setObjectName("button0")
+        self.gridLayout.addWidget(self.button0, 3, 2, 1, 1)
+        self.buttonDiv = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.buttonDiv.setObjectName("buttonDiv")
+        self.gridLayout.addWidget(self.buttonDiv, 3, 4, 1, 1)
+        self.buttonSub = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.buttonSub.setObjectName("buttonSub")
+        self.gridLayout.addWidget(self.buttonSub, 1, 4, 1, 1)
+        self.button2 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button2.setObjectName("button2")
+        self.gridLayout.addWidget(self.button2, 2, 2, 1, 1)
+        self.buttonEquals = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.buttonEquals.setObjectName("buttonEquals")
+        self.gridLayout.addWidget(self.buttonEquals, 3, 3, 1, 1)
+        self.button3 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button3.setObjectName("button3")
+        self.gridLayout.addWidget(self.button3, 2, 1, 1, 1)
+        self.button6 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button6.setObjectName("button6")
+        self.gridLayout.addWidget(self.button6, 1, 1, 1, 1)
+        self.button5 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button5.setObjectName("button5")
+        self.gridLayout.addWidget(self.button5, 1, 2, 1, 1)
+        self.button4 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button4.setObjectName("button4")
+        self.gridLayout.addWidget(self.button4, 1, 3, 1, 1)
+        self.buttonAdd = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.buttonAdd.setObjectName("buttonAdd")
+        self.gridLayout.addWidget(self.buttonAdd, 0, 4, 1, 1)
+        self.button8 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button8.setObjectName("button8")
+        self.gridLayout.addWidget(self.button8, 0, 2, 1, 1)
+        self.button1 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button1.setObjectName("button1")
+        self.gridLayout.addWidget(self.button1, 2, 3, 1, 1)
+        self.button9 = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.button9.setAutoRepeatDelay(300)
+        self.button9.setObjectName("button9")
+        self.gridLayout.addWidget(self.button9, 0, 3, 1, 1)
+        self.buttonMult = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.buttonMult.setObjectName("buttonMult")
+        self.gridLayout.addWidget(self.buttonMult, 2, 4, 1, 1)
+        self.buttonMod = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.buttonMod.setObjectName("buttonMod")
+        self.gridLayout.addWidget(self.buttonMod, 3, 1, 1, 1)
+        self.verticalLayout.addLayout(self.gridLayout)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 481, 24))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Scientific Calculator"))
+        self.button7.setText(_translate("MainWindow", "7"))
+        self.button0.setText(_translate("MainWindow", "0"))
+        self.buttonDiv.setText(_translate("MainWindow", "/"))
+        self.buttonSub.setText(_translate("MainWindow", "-"))
+        self.button2.setText(_translate("MainWindow", "2"))
+        self.buttonEquals.setText(_translate("MainWindow", "="))
+        self.button3.setText(_translate("MainWindow", "3"))
+        self.button6.setText(_translate("MainWindow", "6"))
+        self.button5.setText(_translate("MainWindow", "5"))
+        self.button4.setText(_translate("MainWindow", "4"))
+        self.buttonAdd.setText(_translate("MainWindow", "+"))
+        self.button8.setText(_translate("MainWindow", "8"))
+        self.button1.setText(_translate("MainWindow", "1"))
+        self.button9.setText(_translate("MainWindow", "9"))
+        self.buttonMult.setText(_translate("MainWindow", "*"))
+        self.buttonMod.setText(_translate("MainWindow", "%"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
+
